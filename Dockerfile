@@ -1,5 +1,7 @@
 # Use the official Node.js 18.x image as the base image
-FROM node:14-alpine
+# FROM node:14-alpine
+FROM node
+
 
 # Install git
 RUN apk add --no-cache git
